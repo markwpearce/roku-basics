@@ -1,0 +1,17 @@
+{
+  "name": "sprite-test",
+  "version": "1.0.0",
+  "description": "A Roku application to test Sprites and other game features",
+  "scripts": {
+    "build": "bsc",
+    "package": "bsc --create-package",
+    "docs": "rimraf docs && ./node_modules/.bin/jsdoc -c jsdoc.json -d docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "braintree-jsdoc-template": "^3.3.0",
+    "brighterscript": "^0.37.1",
+    "brighterscript-jsdocs-plugin": "^0.4.0",
+    "rimraf": "^3.0.2"
+  }
+}
