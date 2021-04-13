@@ -19,3 +19,6 @@ splash_screen_sd=pkg:/assets/images/splash-screen_sd.jpg
 
 splash_color=#000000
 splash_min_time=1000
+
+# Resolution
+ui_resolutions=fhd
