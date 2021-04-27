@@ -3,5 +3,6 @@
   <script type="text/brightscript" uri="Main.brs" />
   <children>
     <HelloLabel id="helloLabel" translation="[300,300]" />
+    <Label text="OK: randomize person | up: change color | down: change greeting group | left/right: move" translation="[100, 600]" />
   </children>
 </component>
