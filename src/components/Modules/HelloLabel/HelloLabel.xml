@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloLabel" extends="Group">
+  <script type="text/brightscript" uri="HelloLabel.brs"></script>
+  <interface>
+    <field id="color" type="string" alias="bg.color" />
+    <field id="greetings" type="array" onChange="changeGreeting" />
+  </interface>
+  <children>
+    <Rectangle id="bg" color="0x00000099" width="300" height="100">
+      <Label id="textLabel" text="Hello"></Label>
+    </Rectange>
+  </children>
+</component>
