@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="TasksExample" extends="Group">
+  <script type="text/brightscript" uri="TasksExample.brs" />
+  <children>
+    <Label id="jokeLabel" width="1200" wrap="true" translation="[300,300]" />
+    <Label text="OK: get a random Joke" translation="[100, 600]" />
+  </children>
+</component>

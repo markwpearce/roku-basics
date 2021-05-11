@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <component name="Main" extends="Scene">
   <script type="text/brightscript" uri="Main.brs" />
+  <interface>
+    <function name="screenRefocus"/>
+  </interface>
   <children>
-    <HelloLabel id="helloLabel" translation="[300,300]" />
-    <Label text="OK: randomize person | up: change color | down: change greeting group | left/right: move" translation="[100, 600]" />
+    <LabelList id="exampleList" translation="[100, 200]">
+      <ContentNode id="lessons" role="content">
+        <ContentNode title="Basic BrightScript" description="BrightScriptExample"/>
+        <ContentNode title="Tasks" description="TasksExample"/>
+        <ContentNode title="Video" description="VideoExample"/>
+      </ContentNode>
+    </LabelList>
   </children>
 </component>

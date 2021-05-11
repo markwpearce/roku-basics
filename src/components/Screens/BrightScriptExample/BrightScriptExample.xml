@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BrightScriptExample" extends="Group">
+  <script type="text/brightscript" uri="BrightScriptExample.brs" />
+  <children>
+    <HelloLabel id="helloLabel" translation="[300,300]" />
+    <Label text="OK: randomize person | up: change color | down: change greeting group | left/right: move" translation="[100, 600]" />
+  </children>
+</component>
