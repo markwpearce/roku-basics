@@ -47,3 +47,4 @@ sub getJoke()
   end if
   m.top.isGettingJoke = false
 end sub
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoExample" extends="Group">
+  <script type="text/brightscript" uri="VideoExample.brs" />
+  <children>
+    <Video id="videoplayer" translation="[0,0]" width="1920" height="1080" />
+  </children>
+</component>
