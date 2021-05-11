@@ -4,5 +4,7 @@
 
   <interface>
     <field id="jokeText" type="string" value="" />
+    <field id="isGettingJoke" type="boolean" value="false" />
+    <field id="status" type="integer"/>
   </interface>
 </component>

@@ -2,6 +2,12 @@
 <component name="VideoExample" extends="Group">
   <script type="text/brightscript" uri="VideoExample.brs" />
   <children>
-    <Video id="videoplayer" translation="[0,0]" width="1920" height="1080" />
+    <Video id="videoPlayer" />
+    <Group id="playerUi">
+      <Label id="currentTime" translation="[200,800]" horizAlign="right" />
+      <Rectangle id="progressBackground" translation="[300, 800]" width="1320" height="50" color="0x00000099" />
+      <Rectangle id="progressBar" translation="[300,800]" width="0" height="50" color="0xFFFFFFAA" />
+      <Label id="totalTime" translation="[1620,800]" horizAlign="left" />
+    </Group>
   </children>
 </component>

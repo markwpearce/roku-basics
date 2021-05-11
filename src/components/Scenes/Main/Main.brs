@@ -11,7 +11,6 @@ function init()
 end function
 
 sub onExampleSelected(obj)
-  ? "onExampleSelected field: ";obj.getField()
   example = m.exampleList.content.getChild(obj.getData())
   ? "onExampleSelected selected ContentNode: ";example
   if invalid <> example.description
